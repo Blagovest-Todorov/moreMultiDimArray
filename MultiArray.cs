@@ -20,6 +20,11 @@ namespace _02.MultiDimArrayExamples
             text3D[1, 2, 3] = "Pesho";//we initialize on first row,second columns,third depth the cell values to be"Pesho"
             Console.WriteLine(text3D[1,2,2]);
 
+            string[,] texts = new string[5, 5]; //declarinf twoDimensional Array
+            texts[0, 0] = "Pesho";
+            texts[0, 1] = "Gosho";
+            texts[0, 2] = "Ivan";
+
         }
     }
 }
